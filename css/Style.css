@@ -1,0 +1,82 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d9d9d9;
+}
+
+.contenedor{
+ display: flex;
+ justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 430px;
+    min-height: 400px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    margin-top: 150px;
+    color: #fff;
+    background-color: #353535;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
+}
+
+form input{
+    width: 92%;
+    outline: none;
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background-color: #e4e4e4;
+}
+
+label{
+    font-size: 20px;
+    float: left;
+}
+
+.button{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    color: black;
+    cursor: pointer;
+}
+
+.button:hover{
+   
+    background-color:#284B63;
+    color: #fff;
+}
+
+.Boton_Ingresar{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.error{
+    background-color: #3C6E71;
+    border-radius: 5px;
+    padding: 2px;
+    color: #e4e4e4;
+}
+
+.success{
+    background-color: #284B63;
+    border-radius: 5px;
+    padding: 2px;
+    color: #e4e4e4;
+}

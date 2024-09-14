@@ -1,0 +1,1253 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    user-select: none;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@300&family=Trocchi&display=swap');
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+ h1, h2, h3, h4, h5{
+  
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+nav {
+    background-color: #212121;
+
+}
+
+ul {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+
+ul img {
+    width: 35px;
+
+}
+
+
+nav a {
+    padding: 4px;
+    float: left;
+    position: relative;
+}
+
+
+nav a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: #444;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.2s;
+}
+
+nav a:hover::before {
+    width: 80%;
+    
+
+}
+
+
+nav ul,
+li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff
+}
+
+#nav-right {
+    display: flex;
+}
+
+#nav-right,
+li {
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+
+/*apartado perfil*/
+#portada {
+    background-color: #404040;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
+.imagen-perfil img{
+    width:250px ; 
+}
+.imagen-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width:400px ; 
+    background-color: #5F5F5F;
+}
+.imagen-perfil img {
+ width: 230px;
+}
+
+
+#datos {
+    background: rgba(53, 53, 53, 0.562);
+    background: linear-gradient(10deg, rgba(53,53,53,1) 0%, rgba(217,217,217,0.9178046218487395) 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#datos ul {
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+
+#datos ul li{
+    display: flex;
+}
+#datos ul li img{
+    margin-right: 10px;
+}
+#datos h2 {
+    margin-top: 30px;
+   
+    margin-right: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #212121;
+}
+
+.borde-perfil{
+    background-color: #111111;
+    width: 255px;
+    height:255px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datos-personales ul {
+    background-color: #d9d9d9;
+  
+    box-shadow: 1px 1px 1px 1px #566069
+}
+
+.datos-contacto ul{
+    background-color: #d9d9d9;
+    box-shadow: 1px 1px  1px 1px #566069
+}
+
+
+
+
+/*Apartado CONFIGURACIONES*/
+
+
+
+
+
+main #proximamente {
+    font-size: 20px;
+    min-height: 40.62em;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgba(0, 0, 0, 0.5)100%), url(/img/tools.png);
+
+    color: white;
+    justify-content: center;
+
+    background-position: center;
+
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Apartado inicio*/
+#apartado-inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5% 15%;
+
+}
+
+.contenedor-apartado {
+    border: 1px solid #d9d9d9;
+    margin: 20px;
+    border-radius: 10px;
+    width: 45%;
+    height: 300px;
+
+}
+
+#apartado-inicio div p {
+    padding: 0px 20px 0px 20px;
+    width: 90%;
+    height: 50px;
+    font-size: 16px;
+
+}
+
+#apartado-inicio h2 {
+    color: #111111;
+    margin: 10px 20px 0px 20px;
+    font-size: 18px;
+}
+
+#apartado-recordatorios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5% 15%;
+
+}
+
+
+
+
+
+h1 {
+    color: #ffffff;
+    background-color: #111111;
+    width: fit-content;
+    padding: 15px 20px;
+    margin-bottom: 21px;
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+#portada-inicio-notas,
+#portada-inicio-recordatorios,
+#portada-inicio-tareas,
+#portada-inicio-horarios {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#portada-inicio-notas {
+    background-color: #d9d9d9;
+
+}
+
+#portada-inicio-horarios {
+    background-color: #3C6E71;
+
+}
+
+#portada-inicio-recordatorios {
+    background-color: #284B63;
+
+}
+
+#portada-inicio-tareas {
+    background-color: #353535;
+
+}
+
+#portada-inicio-notas img,
+#portada-inicio-recordatorios img,
+#portada-inicio-tareas img,
+#portada-inicio-horarios img {
+    width: 130px;
+    height: 130px;
+    padding-top: 10px;
+}
+
+button {
+    margin-left: 20px;
+    background-color: #111111;
+    color: #ffffff;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 300ms;
+   
+
+}
+
+/*Apartado Horarios*/
+
+#apartado-horarios {
+    margin: 4% 15%;
+    display: flex;
+    background-color: #3C6E71;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #111111
+}
+
+
+#horarios {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    background-color: #3C6E71;
+    height: 583px;
+    align-items: center;
+}
+
+
+
+.contenedor-horario {
+    border: 1px solid #566069;
+
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 10px;
+    width: 25%;
+    height: 250px;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+
+.contenedor-horario button {
+    font-size: 14px;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.texto-horario {
+    padding-left: 10px;
+}
+
+.contenedor-horario h2 {
+
+    padding-left: 10px;
+    padding-right: 30px;
+    height: 73px;
+    color: #212121;
+}
+
+.contenedor-horario button {
+
+    text-decoration: none;
+}
+
+
+.portada-horario {
+
+    border: 1px solid #566069;
+    background-color: #566069;
+    text-align: center;
+    border-radius: 8px;
+    height: 50%;
+}
+
+.portada-horario img {
+    width: 110px;
+    height: 110px;
+    padding-top: 10px;
+}
+
+.contenedor-horario-vacio {
+
+    margin: 15px;
+    border-radius: 10px;
+    width: 25%;
+    height: 250px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.contenedor-horario-vacio img {
+    width: 60px;
+    height: 60px;
+}
+
+
+/*Apartado Recordatorios*/
+
+#apartado-recordatorios {
+    display: flex;
+    background-color: #284B63;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #111111
+}
+
+.recordatorio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+#apartado-recordatorios {
+    margin: 4% 15%;
+    display: flex;
+    background-color: #284B63;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    border-radius: 10px;
+
+
+}
+
+
+#recordatorios ul {
+    max-width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    font-size: 14px;
+
+}
+
+#recordatorios ul li {
+    border-bottom: 1px solid #d9d9d9;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+#recordatorios ul li img {
+    width: 25px;
+    height: 25px;
+
+}
+
+
+#recordatorios ul li:first-child {
+    margin-top: 15px;
+}
+
+.fechahora {
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    margin-right: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Apartado Notas*/
+
+
+
+#apartado-notas {
+    margin: 4% 15%;
+    display: flex;
+    background-color: #d9d9d9;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #111111
+
+}
+
+
+#notas ul {
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    font-size: 16px;
+
+}
+
+#notas ul li {
+    border-bottom: 1px solid #d9d9d9;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+#notas ul li img {
+    width: 25px;
+    height: 25px;
+
+}
+
+
+#notas ul li:first-child {
+    margin-top: 15px;
+}
+
+.nota {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+
+/*Apartado Tareas*/
+
+.tarea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+#apartado-tareas {
+    margin: 4% 15%;
+    display: flex;
+    background-color: #353535;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #111111
+
+
+}
+
+
+#tareas ul {
+    max-width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    font-size: 16px;
+
+}
+
+#tareas ul li {
+    border-bottom: 1px solid #d9d9d9;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#tareas ul li img {
+    width: 25px;
+    height: 25px;
+
+}
+
+
+#tareas ul li:first-child {
+    margin-top: 15px;
+}
+
+
+/* footer*/
+
+
+footer {
+    background: #212121;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.content-foo {
+    text-align: center;
+}
+
+.content-foo h4 {
+    color: #d9d9d9;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p {
+    color: #fff;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #fff;
+}
+
+/*------------------ Media Queries ---------------------------*/
+
+
+@media screen and (max-width: 1200px) {
+
+    #apartado-inicio {
+
+        margin: 5% 5%;
+
+    }
+
+    #apartado-inicio .contenedor-apartado {
+
+        margin: 20px;
+        border-radius: 10px;
+        width: 45%;
+        height: 300px;
+
+    }
+
+
+    #apartado-tareas {
+        margin: 3% 10%;
+        display: flex;
+        background-color: #353535;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+        padding-top: 50px;
+        border-radius: 10px;
+
+    }
+
+    #apartado-notas,
+    #apartado-horarios {
+        margin: 3% 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+        padding-top: 50px;
+        border-radius: 10px;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 912px) {
+
+    #apartado-inicio {
+
+        margin: 1% 1%;
+
+    }
+
+    #apartado-inicio .contenedor-apartado {
+
+        margin: 20px;
+        border-radius: 10px;
+        width: 40%;
+        height: 300px;
+
+    }
+
+    #portada-inicio-notas,
+    #portada-inicio-recordatorios,
+    #portada-inicio-tareas,
+    #portada-inicio-horarios {
+
+        height: 50%;
+
+    }
+
+    #apartado-inicio div p {
+        padding: 0px 20px 10px 20px;
+        width: 90%;
+        height: 55px;
+        font-size: 14px;
+
+    }
+
+    #apartado-tareas {
+        margin: 5% 5% 0% 5%;
+        display: flex;
+        background-color: #353535;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+        padding-top: 30px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    #apartado-tareas ul {
+        margin: 5%;
+    }
+
+    #apartado-notas {
+        margin: 5% 5% 0% 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+        padding-top: 30px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    #apartado-notas ul {
+        margin: 5%;
+    }
+
+    #apartado-horarios {
+        margin: 4% 15%;
+        display: flex;
+        background-color: #3C6E71;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+        padding-top: 30px;
+        border-radius: 10px;
+
+    }
+
+
+    #horarios {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px;
+        background-color: #3C6E71;
+        height: 583px;
+        align-items: center;
+    }
+
+
+
+    .contenedor-horario {
+
+        background-color: #fff;
+        margin: 10px;
+        border-radius: 10px;
+        width: 28%;
+        height: 200px;
+        text-decoration: none;
+        font-size: 12px;
+
+    }
+
+    .contenedor-horario button {
+        font-size: 12px;
+        width: 30%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+
+    .contenedor-horario h2 {
+
+        padding-left: 10px;
+        padding-right: 30px;
+        height: 50px;
+        color: #212121;
+        font-size: 15px;
+    }
+
+    .contenedor-horario button {
+
+        text-decoration: none;
+    }
+
+
+    .portada-horario {
+
+        background-color: #566069;
+        text-align: center;
+
+        height: 50%;
+    }
+
+    .portada-horario img {
+        width: 80px;
+        height: 80px;
+        padding-top: 10px;
+    }
+
+    .contenedor-horario-vacio {
+
+        margin: 15px;
+        border-radius: 10px;
+        width: 28%;
+        height: 200px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+    .contenedor-horario-vacio img {
+        width: 50px;
+        height: 50px;
+    }
+
+
+    #apartado-recordatorios {
+        margin: 5% 5% 0% 5%;
+        display: flex;
+        background-color: #284B63;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+        padding-top: 30px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    #apartado-recordatorios ul {
+        margin: 5%;
+    }
+
+
+
+    #datos ul {
+
+   
+        width: 350px;
+      
+       
+    }
+   
+
+}
+
+@media screen and (max-width: 600px) {
+    ul {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    ul img {
+        width: 30px;
+
+    }
+
+    #apartado-inicio {
+
+        margin: 1% 1%;
+
+    }
+
+    #apartado-inicio .contenedor-apartado {
+
+        width: 70%;
+        height: 185px;
+        margin: 15px;
+
+    }
+
+
+    #apartado-inicio div p {
+        padding: 0px 20px 10px 20px;
+        width: 90%;
+        height: 45px;
+        font-size: 13px;
+
+    }
+
+    #apartado-inicio button {
+        width: 30%;
+        font-size: 12px;
+
+    }
+
+
+    #apartado-inicio h2 {
+        color: #111111;
+        margin: 5px 20px 0px 20px;
+        font-size: 16px;
+    }
+
+
+
+    h1 {
+        color: #ffffff;
+        background-color: #111111;
+
+        padding: 10px;
+    }
+
+    #portada-inicio-notas,
+    #portada-inicio-recordatorios,
+    #portada-inicio-tareas,
+    #portada-inicio-horarios {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+
+    #portada-inicio-notas img,
+    #portada-inicio-recordatorios img,
+    #portada-inicio-tareas img,
+    #portada-inicio-horarios img {
+        width: 65px;
+        height: 65px;
+        padding-top: 5px;
+
+
+    }
+
+
+
+    #apartado-inicio {
+        margin: 30px 0px 0px 0px;
+    }
+
+    #apartado-tareas ul {
+        margin: 3%;
+
+    }
+
+    #apartado-tareas {
+        margin: 0% 0% 0% 0%;
+
+    }
+
+    #tareas ul {
+        max-width: 590px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        border-radius: 8px;
+        font-size: 14px;
+
+    }
+
+    #apartado-notas ul {
+        margin: 3%;
+
+    }
+
+    #apartado-notas {
+        margin: 0% 0% 0% 0%;
+
+    }
+
+    #notas ul {
+        max-width: 590px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        border-radius: 8px;
+        font-size: 14px;
+
+    }
+
+    #apartado-horarios {
+        margin: 0% 0%;
+        display: flex;
+        background-color: #3C6E71;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+        padding-top: 30px;
+        border-radius: 10px;
+
+    }
+
+
+    #horarios {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px;
+        background-color: #3C6E71;
+        height: 583px;
+        align-items: center;
+    }
+
+
+
+    .contenedor-horario {
+
+        background-color: #fff;
+        margin: 5px;
+        border-radius: 10px;
+        width: 50%;
+        height: 30%;
+        text-decoration: none;
+        font-size: 12px;
+
+    }
+
+    .contenedor-horario button {
+        font-size: 14px;
+        width: 30%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .texto-horario {
+        padding-left: 10px;
+    }
+
+    .contenedor-horario h2 {
+
+        padding-left: 10px;
+        padding-right: 30px;
+        height: 40px;
+        color: #212121;
+    }
+
+    .contenedor-horario button {
+
+        text-decoration: none;
+    }
+
+
+    .portada-horario {
+
+
+        background-color: #566069;
+        text-align: center;
+
+        height: 50%;
+    }
+
+    .portada-horario img {
+        width: 80px;
+        height: 80px;
+        padding-top: 10px;
+    }
+
+    .contenedor-horario-vacio {
+
+
+        margin: 5px;
+        border-radius: 10px;
+        width: 50%;
+        height: 30%;
+        text-decoration: none;
+        font-size: 12px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+    #apartado-recordatorios ul {
+        margin: 3%;
+
+    }
+
+    #apartado-recordatorios {
+        margin: 0% 0% 0% 0%;
+
+    }
+
+    .fechahora {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid black;
+        width: 100px;
+        padding: 0px;
+        font-size: 12px;
+        height: 50px;
+        text-align: center;
+
+    }
+
+
+    main #proximamente {
+
+        min-height: 30.62em;
+        padding-top: 5%;
+        padding-bottom: 20%;
+        background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgba(0, 0, 0, 0.5)90%), url(/img/tools.png);
+        color: white;
+        justify-content: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+    }
+
+    #proximamente h1 {
+        font-size: 22px;
+    }
+
+
+    #proximamente h2 {
+        font-size: 18px;
+    }
+
+    .contenedor-footer {
+        flex-direction: column;
+        border: none;
+    }
+
+    .content-foo {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content-foo h4 {
+        border: none;
+    }
+
+    .content-foo p {
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .titulo-final {
+        font-size: 16px;
+    }
+
+    #datos {
+        
+        display: flex;
+     flex-direction: column;
+    
+    }
+   .datos-personales{
+    margin-bottom: 10px;
+    height: 250px;
+   }
+
+   #datos h2{
+     font-size: 18px;
+     margin: 10px;
+   }
+#datos ul{
+    width:300px;
+    height: 200px;
+   }
+
+   #datos ul h5{
+    font-size: 15px;
+   }
+
+   #datos ul p{
+    font-size: 13px;
+   }
+
+   .imagen-perfil img {
+    width: 200px;
+}
+
+.borde-perfil {
+   
+    width: 225px;
+    height: 225px;
+  
+}
+
+.imagen-perfil {
+
+    width: 400px;
+   height: 300px;
+}
+
+#portada{
+    height: 300px;
+}
+}
